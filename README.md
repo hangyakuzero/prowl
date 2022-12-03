@@ -75,4 +75,4 @@ The enhanced Prowl tool is released under the [MIT License](LICENSE). This means
 
 ## Credits
 
-The enhanced Prowl tool is based on the original [Hakrawler](https://github.com/hakluke/hakrawler) tool, which was created by [Luke Stephens](https://github.com/hakluke). The enhancements and improvements to the tool were made by [<Your Name>](https://github.com/<username>).
+The enhanced Prowl tool is based on the original [Hakrawler](https://github.com/hakluke/hakrawler) tool, which was created by [Luke Stephens](https://github.com/hakluke). The enhancements and improvements to the tool were made by [Maharshi](https://github.com/hangyakuzero).
