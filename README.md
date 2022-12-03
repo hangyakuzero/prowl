@@ -22,22 +22,22 @@ $ prowl [FLAGS] URL
 
 For example, if you want to crawl the website `https://example.com`, you can use the following command:
 
-$ prowl https://example.com
+$ prowl -u https://example.com -d 3 -n 1000 -c 10 -t 10s -f json -o results.json
 
-This will crawl the website and print the extracted links to the standard output.
+This command will crawl the website starting at the seed URL `https://example.com`, with a maximum depth of 3, a maximum number of URLs of 1000, a concurrency level of 10, a timeout of 10 seconds, and an output format of json. The results will be written to the file `results.json`.
+
 
 ### Flags
 
 The enhanced Prowl tool supports the following flags:
 
-- `-depth`: Specifies the maximum depth of the crawl. The default value is `2`.
-- `-exclude`: Specifies a regular expression pattern that is used to exclude certain links from the crawl. The default value is an empty string.
-- `-format`: Specifies the output format of the results. The supported values are `json`, `csv`, and `plain`. The default value is `plain`.
-- `-headers`: Specifies a comma-separated list of custom HTTP headers to include in the request. The default value is an empty string.
-- `-cookies`: Specifies a comma-separated list of cookies to include in the request. The default value is an empty string.
-- `-proxy`: Specifies a proxy URL to use for the request. The default value is an empty string.
-- `-user-agent`: Specifies a custom user agent to use for the request. The default value is the user agent of the Prowl tool.
-- `-save`: Specifies the name of the file where the results should be saved. If the value is `-`, the results will be printed to the standard output. The default value is an empty string.
+- `-u`: the seed URL to crawl (required)
+- `-d`: the maximum depth of the crawl (default: 3)
+- `-n`: the maximum number of URLs to crawl (default: 1000)
+- `-c`: the concurrency level (default: 10)
+- `-t`: the timeout for HTTP requests (default: 10 seconds)
+- `-f`: the output format (json, csv, or plain text) (default: plain text)
+- `-o`: the output file (optional)
 
 ### Examples
 
