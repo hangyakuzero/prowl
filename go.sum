@@ -1,0 +1,4 @@
+github.com/gofiber/fiber v1.10.0 h1:1ZAZYAKjV/xuN/1FnBss5f5vg5I5nU6fRTL6cSdKjRU=
+github.com/gofiber/fiber v1.10.0/go.mod h1:TlB8ZvQQlHfjKsj6FpWOyRv9XpORZ/81zK0hLZ8vzFg=
+github.com/sirupsen/logrus v1.6.0 h1:zT8ZwWQ2vnxKmJ83m/ll8yHm9yvR/41pB0nN/Y/YwFo=
+github.com/sirupsen/logrus v1.6.0/go.mod h1:0E1wVgtbOVM5x+0cI5i5K5VXv73lNoZU6cZUHjZS6iE=
